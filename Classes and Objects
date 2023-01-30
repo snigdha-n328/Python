@@ -1,0 +1,20 @@
+class student:
+    def __init__(self,rollno,name,branch,dob,bg):
+        self.rollno=rollno
+        self.name=name
+        self.branch=branch
+        self.dob=dob
+        self.bg=bg
+    def ab(self):
+        print("Name:",self.name)
+        print("Roll no:",self.rollno)
+        print("Branch:",self.branch)
+        print("Dob:",self.dob)
+        print("Blood group:",self.bg)        
+rollno=input()
+name=input()
+branch=input()
+dob=int(input())
+bg=input()
+ob=student(rollno,name,branch,dob,bg)
+ob.ab()
