@@ -1,0 +1,6 @@
+n=int(input())
+res=n%10
+while(n>0):
+    i=n%10
+    n=n//10
+print("First Digit(",i,")","+","Last Digit(",res,")",'=',res+i)
